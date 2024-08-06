@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+}
+.Game_Name{
+    font-size: large;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+.sign{
+    font-size: 80px;
+    display: flex;
+}
+.Circle_border{
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.Reset{
+    margin-top: 10px;
+    border: none;
+    padding: 10px 15px;
+    font-size: medium;
+    cursor: pointer;
+}
+.Result{
+    margin-top: 30px;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+.Moves{
+    font-size: xx-large;
+}
+.Score{
+    font-size: medium;
+    margin-top: 10px;
+}
+.auto_play{
+    border: none;
+    padding: 10px 15px;
+    font-size: medium;
+    cursor: pointer;
+}
