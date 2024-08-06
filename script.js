@@ -4,6 +4,18 @@ var score = JSON.parse(localStorage.getItem('score')) ||{
     ties : 0
 }
 
+document.body.addEventListener('keydown',(event) => {
+    if(event.key === 'p'){
+        Play('✋');
+    }
+    if(event.key === 'r'){
+        Play('✊');
+    }
+    if(event.key === 's'){
+        Play('✌️');
+    }
+})
+
 function Play(move){
     var comp_move = computer_move();
     if(move === '✋'){
